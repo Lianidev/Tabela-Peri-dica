@@ -1,0 +1,901 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(219, 221, 221, 0);
+    margin: 0;
+    padding: 10px;
+  }
+ 
+ 
+  h1 {
+    margin-bottom: 15px;
+  }
+ 
+ 
+  .tabela-periodica {
+    border-collapse: collapse;
+    width: 20%;
+    max-width: 200px;
+  }
+ 
+ 
+  .tabela-periodica td {
+    width: 30px;
+    height: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    vertical-align: middle;
+    padding: 2px;
+    position: relative;
+  }
+ 
+ 
+  .elemento {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+ 
+ 
+  .numero {
+    font-size: 0.8em;
+    color: #666;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+  }
+ 
+ 
+  .simbolo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+ 
+ 
+  .nome {
+    font-size: 0.8em;
+    color: #333;
+    margin-top: 5px;
+  }
+  .verm{
+    color: red;
+  }
+ 
+ 
+  /* Estilos específicos para os elementos */
+
+
+
+
+.he {
+    background-color: aqua;
+
+
+
+
+}
+.ne {
+    background-color: aqua;
+}
+.ar {
+    background-color: aqua;
+}
+.kr {
+    background-color: aqua;
+}
+.xe {
+    background-color: aqua;
+}
+.rn {
+    background-color: aqua;
+}
+.og {
+    background-color: aqua;
+}
+.f {
+    background-color: gold;
+}
+.cl {
+    background-color: gold;
+}
+ .br {
+    background-color: gold;
+ }
+ .i {
+    background-color: gold;
+ }
+ .at {
+    background-color: gold;
+ }
+ .o {
+    background-color: gold;
+ }
+ .s {
+    background-color: gold;
+ }
+ .se {
+    background-color: gold;
+ }
+ .te {
+    background-color: gold;
+ }
+ .n {
+    background-color: gold;
+ }
+ .p {
+    background-color: gold;
+ }
+ .as {
+    background-color: gold;
+ }
+ .c {
+    background-color: gold;
+ }
+ .si {
+    background-color: gold;
+ }
+ .b {
+    background-color: gold;
+ }
+ .al {
+    background-color: coral;
+ }
+ .ga {
+    background-color: coral;
+ }
+ .ge {
+    background-color: coral;
+ }
+ .po {
+    background-color: coral;
+ }
+ .lv {
+    background-color: coral;
+ }
+ .sb {
+   background-color: coral;
+ }
+ .bi {
+   background-color: coral;
+ }
+ .mc {
+   background-color: coral;
+ }
+ .sn {
+   background-color: coral;
+ }
+ .pb {
+   background-color: coral;
+ }
+ .fl {
+   background-color: coral;
+ }
+ .in {
+   background-color: coral;
+ }
+.tl {
+   background-color: coral;
+}
+.nh {
+   background-color: coral;
+}
+.li {
+   background-color: violet;
+}
+.na {
+   background-color: violet;
+}
+.k {
+   background-color: violet;
+}
+.rb {
+   background-color: violet;
+}
+.cs {
+   background-color: violet;
+}
+.fr {
+   background-color: violet;
+}
+.be {
+   background-color: plum;
+}
+.mg {
+   background-color: plum;
+}
+.ca {
+   background-color: plum;
+}
+.sr {
+   background-color: plum;
+}
+.ba {
+   background-color: plum;
+}
+.ra {
+   background-color: plum;
+}
+.sc {
+   background-color: pink;
+}
+.zn {
+   background-color: pink;
+}
+.cd {
+   background-color: pink;
+}
+.hg {
+   background-color: pink;
+}
+.cn {
+   background-color: pink;
+}
+.ag {
+   background-color: pink;
+}
+.au {
+background-color: pink;
+}
+.rg {
+   background-color: pink;
+}
+.ni {
+   background-color: pink;
+}
+.pd {
+   background-color: pink;
+}
+.pt {
+   background-color: pink;
+}
+.ds {
+   background-color: pink;
+}
+.co {
+   background-color: pink;
+}
+.rh {
+   background-color: pink;
+}
+.ir {
+   background-color: pink;
+}
+.mt {
+   background-color: pink;
+}
+.fe {
+   background-color: pink;
+}
+.ru {
+   background-color: pink;
+}
+.os {
+   background-color: pink;
+}
+.mn {
+   background-color: pink;
+}
+.tc {
+   background-color: pink;
+}
+.re {
+   background-color: pink;
+}
+.bh {
+   background-color: pink;
+}
+.cr {
+   background-color: pink;
+}
+.mo {
+   background-color: pink;
+}
+.w {
+   background-color: pink;
+}
+.sg {
+   background-color: pink;
+}
+.v {
+   background-color: pink;
+}
+.nb {
+   background-color: pink;
+}
+.ta {
+   background-color: pink;
+}
+.db {
+   background-color: pink;
+}
+.ti {
+   background-color: pink;
+}
+.zr {
+   background-color: pink;
+}
+.hf {
+   background-color: pink;
+}
+.rf {
+   background-color: pink;
+}
+.y {
+   background-color: pink;
+}
+.cu {
+   background-color: pink;
+}
+.la-lu {
+   background-color: lime;
+}
+.la {
+   background-color: lime;
+}
+.ce {
+   background-color: lime;
+}
+.pr {
+   background-color: lime;
+}
+.nd {
+   background-color: lime;
+}
+.pm {
+   background-color: lime;
+}
+.sm {
+   background-color: lime;
+}
+.eu {
+   background-color: lime;
+}
+.gd {
+   background-color: lime;
+}
+.tb {
+   background-color: lime;
+}
+.dy {
+   background-color: lime;
+}
+.ho {
+   background-color: lime;
+}
+.er {
+   background-color: lime;
+}
+.tm {
+   background-color: lime;
+}
+.yb {
+   background-color: lime;
+}
+.lu {
+   background-color: lime;
+}
+.ac-lr {
+   background-color: yellowgreen;
+}
+.bk {
+   background-color: yellowgreen;
+}
+.cm {
+   background-color: yellowgreen;
+}
+.am {
+   background-color: yellowgreen;
+}
+.cf {
+   background-color: yellowgreen;
+}
+.es {
+   background-color: yellowgreen;
+}
+.pu {
+   background-color: yellowgreen;
+}
+.fm {
+   background-color: yellowgreen;
+}
+.md {
+   background-color: yellowgreen;
+}
+.no {
+   background-color: yellowgreen;
+}
+.lr {
+   background-color: yellowgreen;
+}
+.np {
+   background-color: yellowgreen;
+}
+.u {
+   background-color: yellowgreen;
+}
+.pa {
+   background-color: yellowgreen;
+}
+.th {
+   background-color: yellowgreen;
+}
+.ac {
+   background-color: yellowgreen;
+}
+.h {
+   background-color: #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(219, 221, 221, 0);
+    margin: 0;
+    padding: 10px;
+  }
+ 
+ 
+  h1 {
+    margin-bottom: 15px;
+  }
+ 
+ 
+  .tabela-periodica {
+    border-collapse: collapse;
+    width: 20%;
+    max-width: 200px;
+  }
+ 
+ 
+  .tabela-periodica td {
+    width: 30px;
+    height: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    vertical-align: middle;
+    padding: 2px;
+    position: relative;
+  }
+ 
+ 
+  .elemento {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+ 
+ 
+  .numero {
+    font-size: 0.8em;
+    color: #666;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+  }
+ 
+ 
+  .simbolo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+ 
+ 
+  .nome {
+    font-size: 0.8em;
+    color: #333;
+    margin-top: 5px;
+  }
+  .verm{
+    color: red;
+    
+  }
+  
+ .verd {
+    color: green;
+ }
+ 
+ .az {
+    color: royalblue;
+ }
+ 
+ 
+ .he {
+    background-color: aqua;
+}
+.ne {
+    background-color: aqua;
+}
+.ar {
+    background-color: aqua;
+}
+.kr {
+    background-color: aqua;
+}
+.xe {
+    background-color: aqua;
+}
+.rn {
+    background-color: aqua;
+}
+.og {
+    background-color: aqua;
+}
+.f {
+    background-color: gold;
+}
+.cl {
+    background-color: gold;
+}
+ .br {
+    background-color: gold;
+ }
+ .i {
+    background-color: gold;
+ }
+ .at {
+    background-color: gold;
+ }
+ .o {
+    background-color: gold;
+ }
+ .s {
+    background-color: gold;
+ }
+ .se {
+    background-color: gold;
+ }
+ .te {
+    background-color: gold;
+ }
+ .n {
+    background-color: gold;
+ }
+ .p {
+    background-color: gold;
+ }
+ .as {
+    background-color: gold;
+ }
+ .c {
+    background-color: gold;
+ }
+ .si {
+    background-color: gold;
+ }
+ .b {
+    background-color: gold;
+ }
+ .al {
+    background-color: coral;
+ }
+ .ga {
+    background-color: coral;
+ }
+ .ge {
+    background-color: coral;
+ }
+ .po {
+    background-color: coral;
+ }
+ .lv {
+    background-color: coral;
+ }
+ .sb {
+   background-color: coral;
+ }
+ .bi {
+   background-color: coral;
+ }
+ .mc {
+   background-color: coral;
+ }
+ .sn {
+   background-color: coral;
+ }
+ .pb {
+   background-color: coral;
+ }
+ .fl {
+   background-color: coral;
+ }
+ .in {
+   background-color: coral;
+ }
+.tl {
+   background-color: coral;
+}
+.nh {
+   background-color: coral;
+}
+.li {
+   background-color: violet;
+}
+.na {
+   background-color: violet;
+}
+.k {
+   background-color: violet;
+}
+.rb {
+   background-color: violet;
+}
+.cs {
+   background-color: violet;
+}
+.fr {
+   background-color: violet;
+}
+.be {
+   background-color: plum;
+}
+.mg {
+   background-color: plum;
+}
+.ca {
+   background-color: plum;
+}
+.sr {
+   background-color: plum;
+}
+.ba {
+   background-color: plum;
+}
+.ra {
+   background-color: plum;
+}
+.sc {
+   background-color: pink;
+}
+.zn {
+   background-color: pink;
+}
+.cd {
+   background-color: pink;
+}
+.hg {
+   background-color: pink;
+}
+.cn {
+   background-color: pink;
+}
+.ag {
+   background-color: pink;
+}
+.au {
+   background-color: pink;
+}
+.rg {
+   background-color: pink;
+}
+.ni {
+   background-color: pink;
+}
+.pd {
+   background-color: pink;
+}
+.pt {
+   background-color: pink;
+}
+.ds {
+   background-color: pink;
+}
+.co {
+   background-color: pink;
+}
+.rh {
+   background-color: pink;
+}
+.ir {
+   background-color: pink;
+}
+.mt {
+   background-color: pink;
+}
+.fe {
+   background-color: pink;
+}
+.ru {
+   background-color: pink;
+}
+.os {
+   background-color: pink;
+}
+.mn {
+   background-color: pink;
+}
+.tc {
+   background-color: pink;
+}
+.re {
+   background-color: pink;
+}
+.bh {
+   background-color: pink;
+}
+.cr {
+   background-color: pink;
+}
+.mo {
+   background-color: pink;
+}
+.w {
+   background-color: pink;
+}
+.sg {
+   background-color: pink;
+}
+.v {
+   background-color: pink;
+}
+.nb {
+   background-color: pink;
+}
+.ta {
+   background-color: pink;
+}
+.db {
+   background-color: pink;
+}
+.ti {
+   background-color: pink;
+}
+.zr {
+   background-color: pink;
+}
+.hf {
+   background-color: pink;
+}
+.rf {
+   background-color: pink;
+}
+.y {
+   background-color: pink;
+}
+.cu {
+   background-color: pink;
+}
+.la-lu {
+   background-color: lime;
+}
+.la {
+   background-color: lime;
+}
+.ce {
+   background-color: lime;
+}
+.pr {
+   background-color: lime;
+}
+.nd {
+   background-color: lime;
+}
+.pm {
+   background-color: lime;
+}
+.sm {
+   background-color: lime;
+}
+.eu {
+   background-color: lime;
+}
+.gd {
+   background-color: lime;
+}
+.tb {
+   background-color: lime;
+}
+.dy {
+   background-color: lime;
+}
+.ho {
+   background-color: lime;
+}
+.er {
+   background-color: lime;
+}
+.tm {
+   background-color: lime;
+}
+.yb {
+   background-color: lime;
+}
+.lu {
+   background-color: lime;
+}
+.ac-lr {
+   background-color: yellowgreen;
+}
+.bk {
+   background-color: yellowgreen;
+}
+.cm {
+   background-color: yellowgreen;
+}
+.am {
+   background-color: yellowgreen;
+}
+.cf {
+   background-color: yellowgreen;
+}
+.es {
+   background-color: yellowgreen;
+}
+.pu {
+   background-color: yellowgreen;
+}
+.fm {
+   background-color: yellowgreen;
+}
+.md {
+   background-color: yellowgreen;
+}
+.no {
+   background-color: yellowgreen;
+}
+.lr {
+   background-color: yellowgreen;
+}
+.np {
+   background-color: yellowgreen;
+}
+.u {
+   background-color: yellowgreen;
+}
+.pa {
+   background-color: yellowgreen;
+}
+.th {
+   background-color: yellowgreen;
+}
+.ac {
+   background-color: yellowgreen;
+}
+.h {
+   background-color: #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
